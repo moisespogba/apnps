@@ -2,8 +2,8 @@ const express = require('express')
 const app = express()
 
 app.get('/',function(req,res){
-    res.send("ola mundo")
+    res.send("ola moises")
 })
 app.listen(4000,function(){
-    console.log("conexão inicializada na porta 4000")
+    console.log("conexão inicializada")
 })
