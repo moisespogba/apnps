@@ -10,6 +10,10 @@ app.get('/mensagem',function(req,res){
 app.get('/sobre',function(req,res){
     res.send("esta pagina esta sendo desenvolvida por moises")
 })
+
+app.get('/layout',function(req,res){
+    res.send("esse é o novo layout")
+})
 app.listen(4000,function(){
     console.log("conexão inicializada")
 })
